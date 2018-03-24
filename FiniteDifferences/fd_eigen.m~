@@ -27,7 +27,7 @@ for iparam=1:2
     beta  = parameters(2);
     gamma = parameters(3);
 
-    % Constant to make eqn nice.
+    % Constant to make eq'n nice.
     thh_fac = 2 / 0.076199682;
 
     % Define boundary conditions.
