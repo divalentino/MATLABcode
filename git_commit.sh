@@ -17,6 +17,8 @@ message="${1}"
 # git add pyspark
 
 rm *~
-git add *
+ls -1 | grep -v TeX | while read LINE; do
+    git add $LINE
+done
 git commit -m "${message}"
 git push
